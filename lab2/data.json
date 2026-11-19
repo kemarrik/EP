@@ -1,0 +1,472 @@
+{
+  "seed": 926,
+  "description": "30 занятий, 6 фиксированных временных слотов, 6 аудиторий",
+  "slots": [
+    "День 1, пара 1",
+    "День 1, пара 2",
+    "День 1, пара 3",
+    "День 2, пара 1",
+    "День 2, пара 2",
+    "День 2, пара 3"
+  ],
+  "rooms": [
+    {
+      "id": "A1",
+      "capacity": 25,
+      "unavailable_slots": []
+    },
+    {
+      "id": "A2",
+      "capacity": 35,
+      "unavailable_slots": [
+        2
+      ]
+    },
+    {
+      "id": "A3",
+      "capacity": 45,
+      "unavailable_slots": [
+        1
+      ]
+    },
+    {
+      "id": "A4",
+      "capacity": 60,
+      "unavailable_slots": []
+    },
+    {
+      "id": "A5",
+      "capacity": 80,
+      "unavailable_slots": [
+        0
+      ]
+    },
+    {
+      "id": "A6",
+      "capacity": 100,
+      "unavailable_slots": []
+    }
+  ],
+  "events": [
+    {
+      "id": "Z01",
+      "slot": 0,
+      "students": 25,
+      "fixed_room": 2,
+      "preference_cost": [
+        1,
+        1,
+        19,
+        14,
+        33,
+        23
+      ]
+    },
+    {
+      "id": "Z02",
+      "slot": 0,
+      "students": 52,
+      "fixed_room": null,
+      "preference_cost": [
+        9,
+        29,
+        15,
+        35,
+        23,
+        39
+      ]
+    },
+    {
+      "id": "Z03",
+      "slot": 0,
+      "students": 92,
+      "fixed_room": null,
+      "preference_cost": [
+        37,
+        17,
+        23,
+        2,
+        10,
+        13
+      ]
+    },
+    {
+      "id": "Z04",
+      "slot": 0,
+      "students": 20,
+      "fixed_room": null,
+      "preference_cost": [
+        2,
+        16,
+        10,
+        37,
+        36,
+        17
+      ]
+    },
+    {
+      "id": "Z05",
+      "slot": 0,
+      "students": 18,
+      "fixed_room": null,
+      "preference_cost": [
+        30,
+        37,
+        0,
+        14,
+        18,
+        0
+      ]
+    },
+    {
+      "id": "Z06",
+      "slot": 1,
+      "students": 44,
+      "fixed_room": null,
+      "preference_cost": [
+        19,
+        21,
+        15,
+        13,
+        0,
+        27
+      ]
+    },
+    {
+      "id": "Z07",
+      "slot": 1,
+      "students": 91,
+      "fixed_room": null,
+      "preference_cost": [
+        0,
+        21,
+        7,
+        29,
+        25,
+        11
+      ]
+    },
+    {
+      "id": "Z08",
+      "slot": 1,
+      "students": 19,
+      "fixed_room": null,
+      "preference_cost": [
+        12,
+        3,
+        29,
+        21,
+        6,
+        31
+      ]
+    },
+    {
+      "id": "Z09",
+      "slot": 1,
+      "students": 22,
+      "fixed_room": null,
+      "preference_cost": [
+        26,
+        39,
+        35,
+        7,
+        26,
+        38
+      ]
+    },
+    {
+      "id": "Z10",
+      "slot": 1,
+      "students": 65,
+      "fixed_room": null,
+      "preference_cost": [
+        3,
+        37,
+        29,
+        31,
+        39,
+        10
+      ]
+    },
+    {
+      "id": "Z11",
+      "slot": 2,
+      "students": 94,
+      "fixed_room": 5,
+      "preference_cost": [
+        6,
+        5,
+        17,
+        31,
+        30,
+        21
+      ]
+    },
+    {
+      "id": "Z12",
+      "slot": 2,
+      "students": 20,
+      "fixed_room": null,
+      "preference_cost": [
+        14,
+        9,
+        26,
+        6,
+        30,
+        31
+      ]
+    },
+    {
+      "id": "Z13",
+      "slot": 2,
+      "students": 50,
+      "fixed_room": null,
+      "preference_cost": [
+        29,
+        24,
+        22,
+        15,
+        21,
+        11
+      ]
+    },
+    {
+      "id": "Z14",
+      "slot": 2,
+      "students": 23,
+      "fixed_room": null,
+      "preference_cost": [
+        38,
+        32,
+        11,
+        12,
+        21,
+        33
+      ]
+    },
+    {
+      "id": "Z15",
+      "slot": 2,
+      "students": 59,
+      "fixed_room": null,
+      "preference_cost": [
+        32,
+        9,
+        26,
+        27,
+        11,
+        18
+      ]
+    },
+    {
+      "id": "Z16",
+      "slot": 3,
+      "students": 25,
+      "fixed_room": null,
+      "preference_cost": [
+        2,
+        11,
+        25,
+        7,
+        20,
+        29
+      ]
+    },
+    {
+      "id": "Z17",
+      "slot": 3,
+      "students": 93,
+      "fixed_room": null,
+      "preference_cost": [
+        15,
+        10,
+        25,
+        26,
+        17,
+        14
+      ]
+    },
+    {
+      "id": "Z18",
+      "slot": 3,
+      "students": 24,
+      "fixed_room": null,
+      "preference_cost": [
+        22,
+        16,
+        6,
+        4,
+        15,
+        27
+      ]
+    },
+    {
+      "id": "Z19",
+      "slot": 3,
+      "students": 78,
+      "fixed_room": null,
+      "preference_cost": [
+        15,
+        3,
+        36,
+        22,
+        9,
+        36
+      ]
+    },
+    {
+      "id": "Z20",
+      "slot": 3,
+      "students": 43,
+      "fixed_room": null,
+      "preference_cost": [
+        31,
+        12,
+        22,
+        11,
+        32,
+        23
+      ]
+    },
+    {
+      "id": "Z21",
+      "slot": 4,
+      "students": 17,
+      "fixed_room": 0,
+      "preference_cost": [
+        31,
+        35,
+        36,
+        31,
+        23,
+        16
+      ]
+    },
+    {
+      "id": "Z22",
+      "slot": 4,
+      "students": 61,
+      "fixed_room": null,
+      "preference_cost": [
+        17,
+        5,
+        39,
+        28,
+        6,
+        8
+      ]
+    },
+    {
+      "id": "Z23",
+      "slot": 4,
+      "students": 26,
+      "fixed_room": null,
+      "preference_cost": [
+        15,
+        21,
+        15,
+        32,
+        7,
+        29
+      ]
+    },
+    {
+      "id": "Z24",
+      "slot": 4,
+      "students": 60,
+      "fixed_room": null,
+      "preference_cost": [
+        11,
+        39,
+        0,
+        30,
+        28,
+        35
+      ]
+    },
+    {
+      "id": "Z25",
+      "slot": 4,
+      "students": 98,
+      "fixed_room": null,
+      "preference_cost": [
+        0,
+        13,
+        17,
+        33,
+        23,
+        7
+      ]
+    },
+    {
+      "id": "Z26",
+      "slot": 5,
+      "students": 76,
+      "fixed_room": null,
+      "preference_cost": [
+        36,
+        28,
+        13,
+        13,
+        10,
+        32
+      ]
+    },
+    {
+      "id": "Z27",
+      "slot": 5,
+      "students": 25,
+      "fixed_room": null,
+      "preference_cost": [
+        26,
+        23,
+        19,
+        1,
+        5,
+        15
+      ]
+    },
+    {
+      "id": "Z28",
+      "slot": 5,
+      "students": 41,
+      "fixed_room": null,
+      "preference_cost": [
+        17,
+        21,
+        2,
+        8,
+        25,
+        27
+      ]
+    },
+    {
+      "id": "Z29",
+      "slot": 5,
+      "students": 24,
+      "fixed_room": null,
+      "preference_cost": [
+        18,
+        5,
+        15,
+        0,
+        6,
+        13
+      ]
+    },
+    {
+      "id": "Z30",
+      "slot": 5,
+      "students": 84,
+      "fixed_room": null,
+      "preference_cost": [
+        15,
+        16,
+        17,
+        35,
+        27,
+        7
+      ]
+    }
+  ]
+}
