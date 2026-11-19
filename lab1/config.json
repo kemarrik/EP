@@ -1,0 +1,21 @@
+{
+  "student": "Демидович В. А.",
+  "group": "Б24-507",
+  "student_number": 6,
+  "year": 26,
+  "variant": 9,
+  "dimension": 8,
+  "bounds": [-10.0, 10.0],
+  "budget": 50000,
+  "population_size": 100,
+  "elite_count": 2,
+  "tournament_size": 3,
+  "crossover_probability": 0.9,
+  "blx_alpha": 0.5,
+  "mutation_probability": 0.125,
+  "configurations": [
+    {"name": "ga_sigma_0.05", "sigma": 0.05},
+    {"name": "ga_sigma_0.20", "sigma": 0.20}
+  ],
+  "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+}
